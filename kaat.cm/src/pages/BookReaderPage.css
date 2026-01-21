@@ -1,0 +1,134 @@
+.book-reader-page {
+      padding-top: 30px;
+      padding-bottom: 40px;
+    }
+
+    .book-reader-title {
+      text-align: center;
+      margin-bottom: 10px;
+      font-size: 2.5rem;
+      color: var(--primary-blue);
+    }
+
+    .book-reader-meta {
+      text-align: center;
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .reader-controls {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 30px;
+      padding: 15px 20px;
+    }
+
+    .reader-controls button {
+      padding: 8px 15px;
+      font-size: 0.95rem;
+    }
+
+    .reader-controls span {
+      font-weight: bold;
+      color: var(--text-charcoal);
+      min-width: 100px;
+      text-align: center;
+    }
+
+    .font-size-control {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .font-size-control label {
+      margin: 0;
+      font-weight: normal;
+      font-size: 0.95rem;
+    }
+
+    .font-size-control select {
+      padding: 8px;
+      border-radius: var(--border-radius);
+      border: 1px solid #ccc;
+      background-color: var(--white);
+      cursor: pointer;
+    }
+
+    .print-button {
+      background-color: var(--accent-green);
+    }
+
+    .print-button:hover {
+      background-color: #689f38;
+    }
+
+    .download-pdf-button {
+      background-color: var(--secondary-yellow);
+      color: var(--primary-blue);
+    }
+
+    .download-pdf-button:hover {
+      background-color: #ffcc66;
+    }
+
+    .book-content-wrapper {
+      min-height: 400px;
+      padding: 30px;
+      line-height: 1.8;
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+    }
+
+    .book-content p {
+      margin-bottom: 1em;
+      text-align: justify;
+    }
+
+    .moral-lesson {
+      margin-top: 40px;
+      padding-top: 20px;
+      border-top: 1px dashed var(--light-gray);
+    }
+
+    .moral-lesson h3, .moral-lesson h4 {
+      color: var(--accent-green);
+      margin-bottom: 10px;
+    }
+
+    .moral-lesson ul {
+      list-style-type: disc;
+      margin-left: 20px;
+      padding-left: 0;
+    }
+
+    .moral-lesson li {
+      margin-bottom: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .book-reader-title {
+        font-size: 2rem;
+      }
+      .reader-controls {
+        flex-direction: column;
+        align-items: stretch;
+      }
+      .reader-controls button,
+      .font-size-control,
+      .reader-controls span {
+        width: 100%;
+        text-align: center;
+      }
+      .font-size-control {
+        justify-content: center;
+      }
+      .book-content-wrapper {
+        padding: 20px;
+      }
+    }

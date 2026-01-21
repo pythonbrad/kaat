@@ -1,0 +1,79 @@
+.modal-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .modal-content {
+      background-color: var(--white);
+      padding: 30px;
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+    }
+
+    .modal-content h2 {
+      color: var(--primary-blue);
+      margin-bottom: 20px;
+    }
+
+    .modal-content p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .modal-content a {
+      color: var(--primary-blue);
+      font-weight: bold;
+    }
+
+    .checkbox-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px 0;
+    }
+
+    .checkbox-container input[type="checkbox"] {
+      margin-right: 10px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+
+    .checkbox-container label {
+      font-size: 1rem;
+      cursor: pointer;
+      font-weight: normal;
+    }
+
+    .modal-actions {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .modal-actions button {
+      padding: 10px 25px;
+      font-size: 1rem;
+    }
+
+    .modal-actions .cancel-button {
+      background-color: #ccc;
+      color: var(--text-charcoal);
+    }
+
+    .modal-actions .cancel-button:hover {
+      background-color: #bbb;
+    }

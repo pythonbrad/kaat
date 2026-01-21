@@ -1,0 +1,34 @@
+.footer {
+      background-color: var(--primary-blue);
+      color: var(--white);
+      padding: 20px 0;
+      text-align: center;
+      margin-top: auto; /* Pushes footer to the bottom */
+    }
+
+    .footer-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .footer-content p {
+      margin: 0;
+      font-size: 0.9rem;
+    }
+
+    .social-links a {
+      color: var(--white);
+      font-size: 1.2rem;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .social-links a:hover {
+      color: var(--secondary-yellow);
+    }
+
+    /* Font Awesome for social icons (assuming it's linked in index.html or via CDN) */
+    /* For this MVP, we'll just use placeholder text or simple icons if Font Awesome isn't available */
+    /* If Font Awesome is not available, consider using simple text links or SVG icons */

@@ -1,0 +1,68 @@
+.book-card {
+      background-color: var(--white);
+      border-radius: var(--border-radius);
+      box-shadow: var(--box-shadow);
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      transition: transform 0.2s ease-in-out;
+    }
+
+    .book-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .book-cover {
+      width: 100%;
+      height: 200px; /* Fixed height for covers */
+      object-fit: cover;
+      border-bottom: 1px solid var(--light-gray);
+    }
+
+    .book-info {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+
+    .book-title {
+      font-size: 1.2rem;
+      margin-bottom: 8px;
+      color: var(--primary-blue);
+    }
+
+    .book-meta {
+      font-size: 0.9rem;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .book-meta span {
+      font-weight: bold;
+      color: var(--text-charcoal);
+    }
+
+    .book-description {
+      font-size: 0.9rem;
+      color: #555;
+      margin-bottom: 15px;
+      flex-grow: 1; /* Allows description to take available space */
+    }
+
+    .read-button {
+      display: inline-block;
+      background-color: var(--accent-green);
+      color: var(--white);
+      padding: 8px 15px;
+      border-radius: var(--border-radius);
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      align-self: flex-start; /* Align button to the start */
+    }
+
+    .read-button:hover {
+      background-color: #689f38; /* Slightly darker green */
+      text-decoration: none;
+    }
