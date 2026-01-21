@@ -27,16 +27,24 @@
 
 #### Logo Principal (Standard)
 
+![](logos/logo-main.png)
+
 * À utiliser sur fonds clairs : Blanc, Crème **#FFF8E7**
 * Les lettres connectées symbolisent le flux naturel de l’apprentissage linguistique
 
 #### Version Monochrome
+
+![](logos/logo-icon-only-monochrome.png)
 
 * Pour impression noir & blanc
 * Documents officiels
 * Lisibilité maximale
 
 #### Version Négative
+
+|||
+| -- | -- |
+| ![](logos/logo-icon-only-dark-background.png) | ![](logos/logo-icon-only-light-background.png) |
 
 * Exclusivement sur fonds foncés ou aplats de couleur
 * Logo en blanc pur

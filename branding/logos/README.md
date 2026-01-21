@@ -8,8 +8,6 @@ Generated on: 2026-01-20T19:31:31.284Z
 
 File naming convention:
 - logo-main: Main logo with text
-- logo-icon: Icon-only version
-- logo-with-text-*: Logo with text in different variations
 - logo-icon-only-*: Icon-only in different variations
 
 Variations:
