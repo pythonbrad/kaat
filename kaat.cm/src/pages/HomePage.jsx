@@ -11,7 +11,7 @@ import React from 'react';
         <div className="homepage">
           <section className="hero-section">
             <div className="container hero-content">
-              <img src="/kaat-logo.png" alt="KAAT Logo" className="hero-logo" />
+              <img src="/kaat-logo-icon-only-light-background.png" alt="KAAT Logo" className="hero-logo" />
               <h1>Every Language, Every Family</h1>
               <p className="mission-statement">
                 KAAT provides free educational books and materials to help parents and educators
