@@ -15,6 +15,7 @@ import React from 'react';
           <main style={{ flexGrow: 1 }}>
             <Routes>
               <Route path="/" element={<HomePage />} />
+              <Route path={import.meta.env.BASE_URL} element={<HomePage />} />
               <Route path="/books" element={<BooksPage />} />
               <Route path="/books/:bookId" element={<BookReaderPage />} />
               <Route path="/about" element={<AboutPage />} />

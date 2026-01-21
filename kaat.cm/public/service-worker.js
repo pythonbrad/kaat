@@ -26,6 +26,7 @@ const CACHE_NAME = 'kaat-cache-v1';
       '/src/data/booksData.js',
       '/src/utils/localStorage.js',
       '/kaat-logo.png',
+      '/kaat-logo-icon-only-light-background.png',
       'https://via.placeholder.com/300x200/4A90E2/FFFFFF?text=Book+1+Cover',
       'https://via.placeholder.com/300x200/7CB342/FFFFFF?text=Book+2+Cover',
       'https://via.placeholder.com/300x200/FFB84D/FFFFFF?text=Book+3+Cover',

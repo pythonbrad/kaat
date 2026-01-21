@@ -7,7 +7,7 @@ import React from 'react';
         <header className="header">
           <div className="header-container container">
             <Link to="/" className="logo">
-              <img src="/kaat-logo.png" alt="KAAT Logo" className="logo-img" />
+              <img src={`${import.meta.env.BASE_URL}kaat-logo.png`} alt="KAAT Logo" className="logo-img" />
             </Link>
             <nav className="nav">
               <NavLink to="/" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>Home</NavLink>
